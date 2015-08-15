@@ -113,11 +113,7 @@ appModule.factory('UserService', ['$http', '$q', function($http, $q) {
   /**
    * deleteUser function
    * 
-   * @param screenName
-   *          the screen name to register for the user
-   * @param active
-   *          the active flag
-   * @return promise that screen name will be deleted
+   * @return promise that user will be deleted
    */
   UserService.prototype.deleteUser = function() {
 
